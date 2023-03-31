@@ -1,0 +1,21 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+@font-face {
+	font-family: "BebasNeue";
+	src: url("/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+body {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: 80px auto 80px;
+
+	margin: 0;
+	padding: 0;
+
+	/* background-image: url('./Screenshot_1.png'); */
+
+	/* font-family: BebasNeue; */
+}
