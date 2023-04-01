@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./prism/prism.css">
+
 </head>
 <body>
 	<header>
@@ -117,10 +119,22 @@
 					</li>
 				</ul>
 			</section>
-			
+
+			<section class="code">
+				<pre>
+					<code class="language-js">
+import {StrictMode} from 'react';
+import {createRoot} from 'react-dom/client';
+import './styles.css';
+
+import App from './App';</code>
+					<script>Prism.highlightAll();</script>
+				</pre>
+			</section>
 		</article>
 	</main>
 
 	<script src="./header.js"></script>
+	<script src="./prism/prism.js"></script>
 </body>
 </html>
